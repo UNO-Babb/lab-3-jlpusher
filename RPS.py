@@ -36,7 +36,7 @@ def main():
     elif player == "S":
       print ("Player chose Scissors")
     else:
-      print ("Invalid Entry, Try Again")
+      print ("Player input invalid Entry, please try again.")
 
   #Winner Loser or Tie?
 
@@ -74,6 +74,8 @@ def main():
     print("Wins \t Ties \t Losses")
     print("---- \t ---- \t ------")
     print(wins, "\t", ties , "\t", losses)
+    playAgain = "done"
+    
 
 if __name__ == '__main__':
   main()
